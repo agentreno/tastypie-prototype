@@ -5,6 +5,6 @@ from . import views
 transaction_resource = TransactionResource()
 
 urlpatterns = [
-	# url(r'^$', views.index, name='index'),
-	url(r'^', include(transaction_resource.urls)),
+    # url(r'^$', views.index, name='index'),
+    url(r'^', include(transaction_resource.urls)),
 ]
